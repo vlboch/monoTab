@@ -1,0 +1,27 @@
+@import url("normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+  --secondary: #5e676e;
+  --bg: #1E1E1E;
+  --text: #fff;
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+a { 
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
